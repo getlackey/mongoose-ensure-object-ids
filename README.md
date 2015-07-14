@@ -75,7 +75,7 @@ router.post('/',
     }));
 ```
 
-The previous example uses our request handler. A more simple example, without the request handler would look something like this:
+The previous example uses our [request handler](https://www.npmjs.com/package/lackey-request-handler). A more simple example, without the request handler would look something like this:
 
 ```
 Product
@@ -104,4 +104,3 @@ mongoSchema.plugin(ensureObjectIds, {
 ```
 
 By providing the options we define what fields are searchable for each model. The plugin will search them using an **$or** query. Just be careful with collisions when using several searchable fields per model.
-
