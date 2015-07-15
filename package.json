@@ -1,6 +1,6 @@
 {
     "name": "lackey-mongoose-ensure-object-ids",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "description": "Replaces unique data like a slug for an ObjectId",
     "main": "lib/index.js",
     "scripts": {
